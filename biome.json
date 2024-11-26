@@ -25,7 +25,7 @@
             },
             "suspicious": {
                 "recommended": true,
-                "noConsoleLog": "error",
+                "noConsoleLog": "off",
                 "noDebugger": "error",
                 "useAwait": "error"
             },
