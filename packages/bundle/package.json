@@ -1,0 +1,21 @@
+{
+    "name": "@repo/bundle",
+    "type": "module",
+    "version": "0.0.0",
+    "private": false,
+    "license": "MIT",
+    "scripts": {
+        "build": "vite build",
+        "lint": "biome lint .",
+        "lint:fix": "biome lint . --write",
+        "clean": "rm -rf node_modules/ .turbo/"
+    },
+    "main": "./src/index.ts",
+    "devDependencies": {
+        "@repo/typescript": "workspace:*",
+        "vite-plugin-dts": "^4.2.4"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21"
+    }
+}
